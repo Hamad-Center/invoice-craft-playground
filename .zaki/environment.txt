@@ -1,0 +1,79 @@
+# SYSTEM INFORMATION
+Operating System: Darwin 24.3.0
+Default Shell: /bin/zsh
+Home Directory: /Users/mersall
+Current Working Directory: /Users/mersall/Desktop/invoice-craft-demo
+Platform: darwin
+Architecture: arm64
+Node Version: v22.15.1
+Total Memory: 8GB
+Free Memory: 0GB
+CPU Cores: 8
+
+Current Time: 7/10/2025, 2:22:55 PM (Africa/Cairo, UTC+3:00)
+
+# EDITOR STATE
+
+Visible Files:
+  package-lock.json
+
+Open Tabs:
+  package-lock.json
+
+# WORKSPACE SUMMARY
+
+Important Project Files:
+  package.json
+  tsconfig.json
+  .gitignore
+  README.md
+  vite.config.ts
+
+Files:
+  package.json
+  tsconfig.json
+  .gitignore
+  README.md
+  vite.config.ts
+  .DS_Store
+  STRUCTURE.md
+  eslint.config.js
+  index.html
+  package-lock.json
+  public/
+  src/
+  tsconfig.app.json
+  tsconfig.node.json
+  verify-npm-package.js
+  yarn-error.log
+  public/vite.svg
+  src/.DS_Store
+  src/App.css
+  src/App.tsx
+  src/assets/
+  src/components/
+  src/data/
+  src/index.css
+  src/main.tsx
+  src/services/
+  src/types/
+  src/utils/
+  src/vite-env.d.ts
+  src/assets/react.svg
+  src/components/Header.tsx
+  src/components/ToastManager.tsx
+  src/components/ToastNotification.tsx
+  src/components/advanced/
+  src/components/custom/
+  src/components/presets/
+  src/components/templates/
+  src/components/custom/AdditionalOptionsSection.tsx
+  src/components/custom/CompanySection.tsx
+  src/components/custom/CustomTab.tsx
+  src/components/custom/GenerateButton.tsx
+  src/components/custom/InvoiceDetailsSection.tsx
+  src/components/custom/InvoiceForm.tsx
+  src/components/custom/InvoicePreview.tsx
+  src/components/custom/ItemsSection.tsx
+  src/components/custom/JsonEditor.tsx
+  src/types/invoice.ts
