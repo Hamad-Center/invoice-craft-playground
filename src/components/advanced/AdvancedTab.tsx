@@ -7,7 +7,6 @@ import {
   generateBatchInvoices,
   createPlugin,
   builtInPlugins,
-  createTemplate,
   modernTemplate,
   minimalTemplate,
   creativeTemplate,
@@ -158,7 +157,7 @@ export default function AdvancedTab({ setStatus, setIsLoading }: AdvancedTabProp
           setBatchProgress(progress);
           setStatus(progress);
         },
-        onError: (error, invoice, index) => {
+        onError: (error, _invoice, index) => {
           console.error(`Error processing invoice ${index}:`, error);
         }
       });
