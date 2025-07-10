@@ -184,10 +184,7 @@ const ToastNotification: React.FC<ToastNotificationProps> = ({
                 color: 'white',
                 fontSize: '12px',
                 flexShrink: 0,
-                transition: 'background 0.2s ease',
-                ':hover': {
-                  background: 'rgba(255, 255, 255, 0.3)'
-                }
+                transition: 'background 0.2s ease'
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.background = 'rgba(255, 255, 255, 0.3)';

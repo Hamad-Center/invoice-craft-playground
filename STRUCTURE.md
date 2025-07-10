@@ -15,22 +15,17 @@ demo-app/src/
 │   └── invoice.ts                    # TypeScript type definitions
 ├── data/
 │   └── testCases.ts                  # Test case data
-├── utils/
-│   └── invoiceUtils.ts               # Utility functions
-├── services/
-│   └── pdfService.ts                 # PDF generation services
+├── types/
+│   ├── invoice.ts                    # TypeScript type definitions
+│   └── pdfmake.d.ts                  # PDFMake type declarations
 └── components/
     ├── Header.tsx                    # App header component
-    ├── TabNavigation.tsx             # Tab navigation component
-    ├── StatusSection.tsx             # Status display component
-    ├── presets/
-    │   ├── PresetsTab.tsx            # Main presets tab container
-    │   ├── TestCaseSelector.tsx      # Test case selection component
-    │   ├── TestCasePreview.tsx       # Test case preview component
-    │   └── TestButtons.tsx           # Test action buttons
+    ├── ToastManager.tsx              # Toast notification manager
+    ├── ToastNotification.tsx         # Individual toast component
     └── custom/
         ├── CustomTab.tsx             # Main custom tab container
         ├── InvoiceForm.tsx           # Invoice form container
+        ├── JsonEditor.tsx            # JSON editor with complete configuration
         ├── CompanySection.tsx        # Company information section
         ├── InvoiceDetailsSection.tsx # Invoice details section
         ├── ItemsSection.tsx          # Invoice items section
@@ -75,9 +70,10 @@ demo-app/src/
 - **data/testCases.ts**: Centralized test case definitions
 - Separation of data from presentation logic
 
-### Utility Functions
-- **utils/invoiceUtils.ts**: Reusable calculation and validation functions
-- **services/pdfService.ts**: PDF generation service functions
+### Modern UI Components
+- **ToastManager.tsx**: Manages toast notifications with smart lifecycle
+- **ToastNotification.tsx**: Individual toast with animations and auto-dismiss
+- **JsonEditor.tsx**: Advanced JSON editor with complete configuration support
 
 ### Component Benefits
 1. **Modularity**: Each component has a single responsibility
