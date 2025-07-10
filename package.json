@@ -1,0 +1,47 @@
+{
+  "name": "invoice-craft-playground",
+  "version": "1.0.0",
+  "description": "Interactive playground and demo for the invoice-craft library - test all features with live examples",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "vite preview --port 3000",
+    "deploy": "npm run build && gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "keywords": [
+    "invoice-craft",
+    "demo",
+    "playground",
+    "pdf-generator",
+    "invoice",
+    "examples",
+    "react",
+    "typescript"
+  ],
+  "author": "Mersall",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hamad-Center/invoice-craft-playground.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hamad-Center/invoice-craft-playground/issues"
+  },
+  "homepage": "https://hamad-center.github.io/invoice-craft-playground",
+  "dependencies": {
+    "invoice-craft": "^1.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "gh-pages": "^6.0.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}
