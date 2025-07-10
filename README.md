@@ -1,10 +1,7 @@
-# 🎮 Invoice Craft Playground
+# Invoice Craft Playground
+Interactive demo and testing environment for the invoice-craft library
 
-> **Interactive demo and testing environment for the [invoice-craft](https://www.npmjs.com/package/invoice-craft) library**
-
-[![Live Demo](https://img.shields.io/badge/Live-Demo-blue.svg)](https://hamad-center.github.io/invoice-craft-playground)
-[![invoice-craft](https://img.shields.io/npm/v/invoice-craft.svg)](https://www.npmjs.com/package/invoice-craft)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue.svg)](https://hamad-center.github.io/invoice-craft-playground) [![invoice-craft](https://img.shields.io/npm/v/invoice-craft.svg)](https://www.npmjs.com/package/invoice-craft) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A comprehensive playground to test, experiment, and showcase all features of the invoice-craft library. Perfect for developers who want to see the library in action before integrating it into their projects.
 
@@ -16,7 +13,7 @@ A comprehensive playground to test, experiment, and showcase all features of the
 - **Live Preview** - See invoice HTML before PDF generation
 - **Real-time Editing** - Modify invoice data and see instant results
 
-### �� Customization Testing
+### 🎨 Customization Testing
 - **Brand Colors** - Test different color schemes
 - **Logo Upload** - Try custom logos and branding
 - **Layout Styles** - Compare modern, minimal, and creative templates
@@ -36,13 +33,11 @@ npm install
 npm run dev
 ```
 
-Visit `http://localhost:3000` to start exploring!
+Visit http://localhost:3000 to start exploring!
 
 ## 🔗 Related Links
 
 - **Main Library**: [invoice-craft on npm](https://www.npmjs.com/package/invoice-craft)
 - **Documentation**: [GitHub Repository](https://github.com/Hamad-Center/invoice-craft)
 
----
-
-**Made with ❤️ to showcase the power of invoice-craft**
+Made with ❤️ to showcase the power of invoice-craft
